@@ -1,0 +1,19 @@
+﻿@model TestViewModel
+
+@{
+    ViewData["Title"] = "Test";
+}
+
+ 
+<h2><strong>Developer Name:</strong> <code>@Model.Name</code></h2>
+@if(Model.DateOfBirth.HasValue)
+{
+    <h2><strong>Date of Birth:</strong> <code>@Model.DateOfBirth?.ToString("yyyy-MM-dd")</code></h2>
+}
+
+  
+
+<div class="text-center">
+    <h1 class="display-4">Test Controller</h1>
+    <p>This is the Index View from Test Controller.</p>
+</div>
