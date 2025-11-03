@@ -1,1 +1,1 @@
-An educational project to practise .Net Core MVC bz building a practical application.
+An educational project to practise .Net Core MVC by building a practical application.
