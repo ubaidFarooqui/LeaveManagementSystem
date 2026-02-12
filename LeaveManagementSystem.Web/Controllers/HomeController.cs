@@ -7,7 +7,7 @@ namespace LeaveManagementSystem.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        // Home 
         public HomeController(ILogger<HomeController> logger) 
         {
             _logger = logger;
